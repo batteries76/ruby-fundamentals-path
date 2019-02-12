@@ -1,5 +1,5 @@
 # Goal: Starting with shopping_centre, get back the string '29%'
-# Answer: shopping_centre[:chinese_restaurant][:details].menu[0][:ingredients][2][:nutrients][1][:daily_percentage]
+
 require 'pry'
 
 squash = {
