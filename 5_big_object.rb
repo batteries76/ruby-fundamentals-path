@@ -1,6 +1,9 @@
 # Goal: Starting with shopping_centre, get back the string '29%'
 
-require 'pry'
+# require 'pry'
+# To use pry:
+# > gem install pry
+# Uncomment line 3
 
 squash = {
     name: 'squash',
