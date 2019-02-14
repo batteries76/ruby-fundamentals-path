@@ -3,7 +3,8 @@
 # require 'pry'
 # To use pry:
 # > gem install pry
-# Uncomment line 3
+# Uncomment line 3 (require 'pry')
+# Uncomment line 58 (binding.pry)
 
 squash = {
     name: 'squash',
@@ -54,4 +55,4 @@ shopping_centre = {
     }
 }
 
-binding.pry
+# binding.pry
