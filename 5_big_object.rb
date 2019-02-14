@@ -2,9 +2,9 @@
 
 # require 'pry'
 # To use pry:
-# > gem install pry
-# Uncomment line 3 (require 'pry')
-# Uncomment line 58 (binding.pry)
+# 1. > gem install pry
+# 2. Uncomment line 3 (require 'pry')
+# 3. Uncomment line 58 (binding.pry)
 
 squash = {
     name: 'squash',

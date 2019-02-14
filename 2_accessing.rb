@@ -1,8 +1,8 @@
 # require 'pry'
 # To use pry:
-# > gem install pry
-# Uncomment line 1 ()
-# Uncomment line 150 (binding.pry)
+# 1. > gem install pry
+# 2. Uncomment line 1 (require 'pry')
+# 3. Uncomment line 150 (binding.pry)
 
 # 1. Starting with fruit, extract the string 'lemon' and give its data type
 fruit = ['apple', 'orange', 'lemon']
