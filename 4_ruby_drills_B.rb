@@ -11,13 +11,13 @@
 # 29. Make eight objects from the class you just made.
 # 30. Puts out an attribute of four of the objects (instances of the class) that you made.
 # 31. Assign three values to attributes of three of the objects you have made (those that have write access).
-# ———————————————————
 
+# ———————————————————
 # 32. Create a hash with one key and value pair.
 # 33. Define a method that takes a hash as the input, and puts out the value of one of the keys of the hash. 
 # 34. Call the previous method with that hash as the argument
-# ———————————————————
 
+# ———————————————————
 # 35. Make a hash with three keys and values, and assign it to a variable.
 # 36. Make four more hashes with the same keys.
 # 37. Access a value from three of these hashes.
@@ -27,25 +27,25 @@
 # 41. Make sure that the array contains four hashes (maybe puts).
 # 42. Access two elements of the array that you have created (via an index).
 # 43. For one of these, now access one of the values of the hash at that is located at that index.
-# ———————————————————
 
+# ———————————————————
 # 44. Make an class that has six attributes and three instance methods. Make two of the attributes readable, three writeable, and one both readable and writable. 
 # 45. Set two of the attributes when the objects are initialised, but do this by expecting one hash as the argument (the one argument will set two attribute values). 
 # 46. Make five objects from the class you made.
 # 47. Puts the value of three separate objects’ attributes.
 # 48. Call two of the instance methods on three of these objects.
-# ———————————————————
 
+# ———————————————————
 # 49. Write a method that takes five arguments: three strings, and two numbers.
 # 50. Call that method twice.
-# ———————————————————
 
+# ———————————————————
 # 51. Write a method that takes two arguments - one a hash, and the other an array. Inside the method puts out a value from the hash (assume that you will know the keys), and an element from the array.
 # 52. Define four hashes (with the previous method in mind), one with one key, one with two keys, one with three keys, and one with four.
 # 53. Define two arrays, with two different datatypes.
 # 54. Call the previous method four times, once with each hash, and use the arrays you made.
-# ———————————————————
 
+# ———————————————————
 # 55. Make a class that has nine attributes. Three attributes are set when the objects are initialised, but the initialise method only takes one argument, a hash. 
 # 56. Write four instance methods for your class. 
 # 57. Make two of the attributes read accessible. Make two of them writable. And make three of them both readable and writable.
@@ -56,14 +56,14 @@
 # 62. Call two instance methods on four different objects. 
 # 63. Write a method that takes five arguments: three strings, and two numbers.
 # 64. Call that method twice.
-# ———————————————————
 
+# ———————————————————
 # 65. Write a method that takes two arguments - one a hash, and the other an array. Inside the method puts out a value from the hash, and an element from the array.
 # 66. Define four hashes, one with one key, one with two keys, one with three keys, and one with four.
 # 67. Define two arrays, with two different datatypes.
 # 68. Call the method four times, once with each hash, and use the arrays you made.
-# ———————————————————
 
+# ———————————————————
 # 69. Make a class that has nine attributes. Three attributes are set when the objects are initialised, but the initialise method only takes one argument, a hash.
 # 70. Write four instance methods for your class.
 # 71. Make two of the attributes read accessible. Make two of them writable. And make three of them both readable and writable.
