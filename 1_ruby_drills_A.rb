@@ -23,14 +23,14 @@
 # 9. Access a value within each of these hashes.
 
 # ———————————————————
-# 10. Define three hashes that have three keys in each, and set the keys to floats.
+# 10. Define three hashes that have three keys in each, and set the value of the keys to floats.
 # 11. Access a value from each of these hashes.
 
 # ———————————————————
 # 12. Define two hashes that have three keys in each, and set the value of these keys to be strings.
 
 # ———————————————————
-# 13. Define two hashes that each have three keys, and set each of the keys as a different datatype, integer, float, and string.
+# 13. Define two hashes that each have three keys, and set each of the values of the keys as a different datatype, integer, float, and string.
 # 14. Define an array, and fill it with the hashes from the previous question.
 # 15. Loop through this array, printing to screen the value of each member of the array.
 
@@ -50,5 +50,5 @@
 # 24. Define two integer and two float variables, and use them as arguments to this method you have made.
 
 # ———————————————————
-# 25. Make a hash with four keys, and have the keys be three different data types.
+# 25. Make a hash with four keys, and let the values be three different data types.
 # 26. Access two of the values in your hash, and print them to the screen.
