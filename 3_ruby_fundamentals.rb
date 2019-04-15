@@ -116,13 +116,6 @@
 # Explanation
 # Here you have a table that shows the growth when starting with 1 fruit. It shows when the plant came into existence (is planted) and how may fruit it bears each week
 # Plant 1 2 3 4 5 6 7 8 9 10 11 12 13 Total # of fruits in a harvest
-
-# 0——————————-—0
-# 10———————————0
-# 210——————————-1
-# 321000————————-3
-# 432111000000—————6
-# 543222111111
 # Week
 # 1 0 - - - - - - - - - - - - 0
 # 2 1 0 - - - - - - - - - - - 1
