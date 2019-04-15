@@ -102,7 +102,7 @@
 
 # *Problem 23*
 # *Funny Plant*
-# Scientist have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruits from each plant, and what is left over can be consumed.
+# Scientist have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruit from each plant, and what is left over can be consumed.
 # You start with one plant.
 # Now you need to calculate after how many weeks, you can support a group of x people, given y fruits to start with.
 # Input
@@ -124,7 +124,7 @@
 # 5 4 3 2 2 2 1 1 1 1 1 1 1 1 21
 # At week 1 we have 1 plant giving 0 fruits, because it has just been planted.
 # When week 2 comes along we have 1 plant that gives off a fruit and then we use that fruit to plant plant 2.
-# Then in week 3 we have 2 fruits from plant 1, 1 from plant 2, so we can plant 3 new plants.
+# Then in week 3 we have 2 fruits from plant 1, 1 from plant 2, so we can plant 2 new plants.
 # Challenge Input
 # 200 15
 # 50000 1
