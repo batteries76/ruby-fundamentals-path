@@ -105,13 +105,9 @@
 # => ['peanuts', 'chocolate']
 
 # *Problem 23*
-<<<<<<< HEAD
-# Scientists have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. These fruit needs 1 week to grow, so each weak you can harvest it fruits. Also the plant gives 1 fruit more than the week before and to get more plants you need to plant a fruit.
-=======
 # *Funny Plant*
-# Scientist have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruit from each plant, and what is left over can be consumed.
+# Scientists have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruit from each plant, and what is left over can be consumed.
 # You start with one plant.
->>>>>>> d565088634e11e601479941d83edd8c5f449da3c
 # Now you need to calculate after how many weeks, you can support a group of x people, given y fruits to start with.
 # Input
 # 15 1
