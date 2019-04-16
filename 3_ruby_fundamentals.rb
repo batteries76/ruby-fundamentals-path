@@ -69,7 +69,11 @@
 # Using some part of the HK MTR, write a method that takes one argument, a hash within which there are three keys: two which are strings (an origin station, and a destination station), and one which is an array. Choose part of a line from the MTR (or other rail network) as dummy data for the array. The method should return a hash that contains two keys: an origin index, and a destination index. These keys should be given the value of the index of the string the array if those stations are in the station array, or nil if not. 
 
 # *Problem 20*
-# Using some of the features in the past couple of problems, start thinking about it coding a basic PTV app (like our public transport app, if you aren't familiar). I'm happy to give hints, or you can get together and help each other. You need to simplify things, so only dummy up one or at most two lines at first (or at last). The final product (coded, or just pseudo-coded) would take a user input of an origin station, and a destination station. Start with one train line, represented by an array. If you extend it to two lines, you need to think about how to represent the lines as data, and this might be a complex object. Think through all the options. You will need some way to carry the user data through the method/s, and some way to represent the MTR. You will likely need several small methods, and will likely have to employ a full range of data types, such as hashes and arrays (and possibly arrays of arrays). I am more than happy to help out anyone stuck, particularly if they have a specific question where they are stuck, and have thought about it. I'm also happy to look through code people would like examined. 
+# Using some of the features in the past couple of problems, start turning your code into a basic PTV app (like our public transport app, if you aren't familiar). Use any train system you like as the basis for this.
+# I'm happy to give hints, or you can get together and help each other. You need to simplify things, so only dummy up one or at most two lines at first (or at last). 
+# The final product (coded, or just pseudo-coded) would take a user input of an origin station, and a destination station, and give the stations that the journey would pass through, including all train line changes. (There is no need for times - although if you feel like an extension I can give a modified version that you could work on.)
+# Start with one train line, represented by an array. If you extend it to two lines, you need to think about how to represent the lines as data, and this might be a complex object. Think through all the options. You will need some way to carry the user data through the method/s, and some way to represent the train system. You will likely need several small methods, and will likely have to employ a full range of data types, such as hashes and arrays (and possibly arrays of arrays). 
+# I am more than happy to help out anyone stuck, particularly if they have a specific question where they are stuck, and have thought about it. I'm also happy to look through code people would like examined. 
 
 # *Problem 21*
 # *Word Enemies*
@@ -101,37 +105,30 @@
 # => ['peanuts', 'chocolate']
 
 # *Problem 23*
-# *Funny Plant*
-# Scientist have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruits from each plant, and what is left over can be consumed.
-# You start with one plant.
+# Scientists have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. These fruit needs 1 week to grow, so each weak you can harvest it fruits. Also the plant gives 1 fruit more than the week before and to get more plants you need to plant a fruit.
 # Now you need to calculate after how many weeks, you can support a group of x people, given y fruits to start with.
 # Input
 # 15 1
 # Output
 # 5
 # Input description
-# The input gives you 2 positive integers x and y, being x the number of people needed to be fed and y the number of fruits you start with.
+# The input gives you 2 positive integers x and y, being x the number of people needed to be fed, and y the number of fruits you start with.
 # Output description
 # The number of weeks before you can feed the entire group of people.
 # Explanation
 # Here you have a table that shows the growth when starting with 1 fruit. It shows when the plant came into existence (is planted) and how may fruit it bears each week
-# Plant 1 2 3 4 5 6 7 8 9 10 11 12 13 Total # of fruits in a harvest
-
-# 0——————————-—0
-# 10———————————0
-# 210——————————-1
-# 321000————————-3
-# 432111000000—————6
-# 543222111111
+#   Plant 1  2  3  4  5  6  7  8  9 10 11 12 13    Total # of fruits in a harvest
 # Week
-# 1 0 - - - - - - - - - - - - 0
-# 2 1 0 - - - - - - - - - - - 1
-# 3 2 1 0 0 0 - - - - - - - - 3
-# 4 3 2 1 1 1 0 0 0 0 0 0 0 0 8
-# 5 4 3 2 2 2 1 1 1 1 1 1 1 1 21
+# 1   |    0  -  -  -  -  -  -  -  -  -  -  -  -     0
+# 2   |    1  0  -  -  -  -  -  -  -  -  -  -  -     1
+# 3   |    2  1  0  0  0  -  -  -  -  -  -  -  -     3
+# 4   |    3  2  1  1  1  0  0  0  0  0  0  0  0     8
+# 5   |    4  3  2  2  2  1  1  1  1  1  1  1  1    21  
 # At week 1 we have 1 plant giving 0 fruits, because it has just been planted.
 # When week 2 comes along we have 1 plant that gives off a fruit and then we use that fruit to plant plant 2.
 # Then in week 3 we have 2 fruits from plant 1, 1 from plant 2, so we can plant 3 new plants.
+# In this implementation we keep planting fruit until we can feed everyone, and then harvest to feed.
+
 # Challenge Input
 # 200 15
 # 50000 1
@@ -139,7 +136,7 @@
 # Challenge Output
 # 5
 # 14
-# 9
+# 9 
 
 # *Problem 24*
 # *Quiz Letter blocks*
