@@ -80,7 +80,7 @@
 # Words are going into battle, hurling letters from one to the other. Your function takes in two words (strings) as arguments. The letters that are the same in each word cancel each other out. The letters have the value of their position in the alphabet (a=1, b=2..)
 # Output which word won the war.
 
-# *Problem 23*
+# *Problem 22*
 # *Funny Plant*
 # Scientists have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruit from each plant, and what is left over can be consumed.
 # You start with one plant.
@@ -114,7 +114,7 @@
 # 14
 # 9 
 
-# *Problem 24*
+# *Problem 23*
 # *Quiz Letter blocks*
 # You are given a collection of ABC blocks. Just like the ones you had when you were a kid. There are twenty blocks with two letters on each block. You are guaranteed to have a complete alphabet amongst all sides of the blocks. The sample blocks are:
 # [['B','O'],
@@ -158,7 +158,7 @@
 # Use the lots_of_words.txt file to test your code.
 # Now order the words that can be made by length.
 
-# *Problem 25*
+# *Problem 24*
 # *Balance*
 # Test to see if a word ‘balances’.
 # The concept is that each letter in a word has a starting value related to its position in the alphabet.
