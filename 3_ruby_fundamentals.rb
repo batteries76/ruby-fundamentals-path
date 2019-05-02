@@ -76,30 +76,6 @@
 # Words are going into battle, hurling letters from one to the other. Your function takes in two words (strings) as arguments. The letters that are the same in each word cancel each other out. The letters have the value of their position in the alphabet (a=1, b=2..)
 # Output which word won the war.
 
-# *Problem 22*
-# *Allergies*
-# An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for).
-# The list of items (and their value) that were tested are:
-# - eggs (1)
-# - peanuts (2)
-# - shellfish (4)
-# - strawberries (8)
-# - tomatoes (16)
-# - chocolate (32)
-# - pollen (64)
-# - cats (128)
-# So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
-# Write a program that, given a person's score can tell them
-# a) whether or not they're allergic to a given item, and
-# b) the full list of allergies.
-# allergies = Allergies.new(34)
-# allergies.allergic_to?('chocolate')
-# => true
-# allergies.allergic_to?('cats')
-# => false
-# allergies.list
-# => ['peanuts', 'chocolate']
-
 # *Problem 23*
 # *Funny Plant*
 # Scientist have discovered a new plant. The fruit of the plant can feed 1 person for a whole week and best of all, the plant never dies. Fruits take 1 week to grow. Each week the plant gives 1 fruit more than the week before. To get more plants you need to plant a fruit. Each week you will prioritise planting one fruits from each plant, and what is left over can be consumed.
