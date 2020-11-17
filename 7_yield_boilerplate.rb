@@ -11,7 +11,7 @@ require 'colorize'
 require 'yield_source'
 
 # 1. This will give you feedback. You need to find the string that says "Found me!.."
-what_the()
+# what_the() {|x| puts x}
 
 # Build a YieldSource instance/object. We will use this object by running its instance methods
 yield_obj = YieldSource.new()
@@ -19,16 +19,16 @@ yield_obj = YieldSource.new()
 # From here on the game is to try to understand what the function is doing behind the scenes. Just putsing out the block argument(s) is not enough. Have a play with the method arguments and see if you can work out what is happening.
 
 # 2. Here you have the starter code.. but need to investigate what's going on. 
-# yield_obj.what_is_it() 
+# yield_obj.what_is_it() {|x| puts x}
 
 # 3. This takes a block, but also two ordinary number arguments in the instance method. See if you can use the block to work out what happens before the yield.
-# yield_obj.yielder()
+# yield_obj.yielder(4,7) {|x| puts x }
 
 # 4. This one takes a string (and a block). What is happening behind the scenes? (You may need to try a few different inputs)
-# yield_obj.how_many()
+# yield_obj.how_many("biggereewwwppeeepp") {|x| puts x}
 
 # 5. This one takes a string again (and a block as usual).  
-# yield_obj.what_is_it_this_time()
+# yield_obj.what_is_it_this_time("asaakaaasaaaak") {|x| puts x}
 
 # 6. Yep, a string and a block again. But something else is going on here. See if you can discover it. (You'll need to do a good job investigating the pipes..)
 # yield_obj.argsss()
